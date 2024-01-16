@@ -1,0 +1,219 @@
+{
+  "format": 1,
+  "restore": {
+    "F:\\SERA\\NEW TIGA\\SOALTIGADOTNET_FLUENT-SERA\\SOALTIGADOTNET_FLUENT-SERA.csproj": {}
+  },
+  "projects": {
+    "F:\\SERA\\NEW TIGA\\SOALTIGADOTNET_EFCORE-SERA\\SOALTIGADOTNET_EFCORE-SERA.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "F:\\SERA\\NEW TIGA\\SOALTIGADOTNET_EFCORE-SERA\\SOALTIGADOTNET_EFCORE-SERA.csproj",
+        "projectName": "SOALTIGADOTNET_EFCORE-SERA",
+        "projectPath": "F:\\SERA\\NEW TIGA\\SOALTIGADOTNET_EFCORE-SERA\\SOALTIGADOTNET_EFCORE-SERA.csproj",
+        "packagesPath": "C:\\Users\\Lenovo\\.nuget\\packages\\",
+        "outputPath": "F:\\SERA\\NEW TIGA\\SOALTIGADOTNET_EFCORE-SERA\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Lenovo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "MediatR": {
+              "target": "Package",
+              "version": "[11.0.0, )"
+            },
+            "MediatR.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[11.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.400\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "F:\\SERA\\NEW TIGA\\SOALTIGADOTNET_FLUENT-SERA\\SOALTIGADOTNET_FLUENT-SERA.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "F:\\SERA\\NEW TIGA\\SOALTIGADOTNET_FLUENT-SERA\\SOALTIGADOTNET_FLUENT-SERA.csproj",
+        "projectName": "SOALTIGADOTNET_FLUENT-SERA",
+        "projectPath": "F:\\SERA\\NEW TIGA\\SOALTIGADOTNET_FLUENT-SERA\\SOALTIGADOTNET_FLUENT-SERA.csproj",
+        "packagesPath": "C:\\Users\\Lenovo\\.nuget\\packages\\",
+        "outputPath": "F:\\SERA\\NEW TIGA\\SOALTIGADOTNET_FLUENT-SERA\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Lenovo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "F:\\SERA\\NEW TIGA\\SOALTIGADOTNET_MEDIATOR-SERA\\SOALTIGADOTNET_MEDIATOR-SERA.csproj": {
+                "projectPath": "F:\\SERA\\NEW TIGA\\SOALTIGADOTNET_MEDIATOR-SERA\\SOALTIGADOTNET_MEDIATOR-SERA.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "FluentValidation": {
+              "target": "Package",
+              "version": "[10.6.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.400\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "F:\\SERA\\NEW TIGA\\SOALTIGADOTNET_MEDIATOR-SERA\\SOALTIGADOTNET_MEDIATOR-SERA.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "F:\\SERA\\NEW TIGA\\SOALTIGADOTNET_MEDIATOR-SERA\\SOALTIGADOTNET_MEDIATOR-SERA.csproj",
+        "projectName": "SOALTIGADOTNET_MEDIATOR-SERA",
+        "projectPath": "F:\\SERA\\NEW TIGA\\SOALTIGADOTNET_MEDIATOR-SERA\\SOALTIGADOTNET_MEDIATOR-SERA.csproj",
+        "packagesPath": "C:\\Users\\Lenovo\\.nuget\\packages\\",
+        "outputPath": "F:\\SERA\\NEW TIGA\\SOALTIGADOTNET_MEDIATOR-SERA\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Lenovo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "F:\\SERA\\NEW TIGA\\SOALTIGADOTNET_EFCORE-SERA\\SOALTIGADOTNET_EFCORE-SERA.csproj": {
+                "projectPath": "F:\\SERA\\NEW TIGA\\SOALTIGADOTNET_EFCORE-SERA\\SOALTIGADOTNET_EFCORE-SERA.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "MediatR": {
+              "target": "Package",
+              "version": "[11.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.400\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

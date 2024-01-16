@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\SOALTIGADOTNET_API-SERA.props" />
+</Project>
